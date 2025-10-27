@@ -1,9 +1,9 @@
 # Maintainer Relief Playbook
+A playbook to be used, with other resources and feedback from maintainers on what help they most need to find balance.
 
 ## Resources
 
 ## Maintainer Relief – Peer Review Rubric
-# Maintainer Relief & Operational Sustainability – Peer Review Rubric
 
 **Purpose:** Evaluate how effectively a project reduces unnecessary maintainer labor, prevents burnout, and maintains healthy contributor pathways.
 
