@@ -9,6 +9,7 @@ Governance in the context of healthy open communities, simply means that the lea
   - Technology choices
   - Operational processes 
   - Funding and resource distribution
+  - AI/Alignment
 
 Ultimately, the goal of this playbook is to ensure that governance is public, and includes milestones for community input.
 
