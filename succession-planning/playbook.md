@@ -2,9 +2,13 @@
 
 ## Resources
 
+- [Inclusive Leadership (CHAOSS)](https://chaoss.community/kb/metric-inclusive-leadership/)
+- [Contributor Absence Factor (CHAOSS)](https://chaoss.community/kb/metric-contributor-absence-factor/)
+- [Contribution ladder]()
+
 ## Maintainer Relief – Peer Review Rubric
 
-# Leadership Continuity & Succession Planning – Peer Review Rubric
+## Leadership Continuity & Succession Planning – Peer Review Rubric
 
 **Purpose:** Evaluate how well the project reduces leadership concentration risk, supports healthy turnover, and maintains trusted stewardship over time.
 
@@ -17,7 +21,7 @@
 
 ---
 
-## A. Leadership Structure & Distribution (0–12 pts)
+### A. Leadership Structure & Distribution (0–12 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
@@ -27,7 +31,7 @@
 
 ---
 
-## B. Pathways to Trusted Leadership (0–12 pts)
+### B. Pathways to Trusted Leadership (0–12 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
@@ -37,7 +41,7 @@
 
 ---
 
-## C. Continuity During Change (0–12 pts)
+### C. Continuity During Change (0–12 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
@@ -47,7 +51,7 @@
 
 ---
 
-## D. Maintainer Sustainability Support (0–8 pts)
+### D. Maintainer Sustainability Support (0–8 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
@@ -56,7 +60,7 @@
 
 ---
 
-## ✅ Total Score: **/ 44 pts**
+### ✅ Total Score: **/ 44 pts**
 
 | Rating | Descriptor |
 |-------|------------|
