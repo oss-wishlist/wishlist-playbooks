@@ -34,70 +34,65 @@ At the end of the wish effort, we will review success according to this rubric.
 
 ---
 
-## A. Governance Structure (0–16 points)
+## A. Governance Structure (0–16 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
-| **A1. Clear Identification of Decision Makers** | Defines who holds authority; includes rationale and boundaries of authority. | 0–4 |
-| **A2. Defined Roles & Paths to Influence** | Roles documented; transparent criteria for influence and role ascension; emeritius, equitable access. | 0–4 |
-| **A3. Ability to Influence Without Formal Authority** | Explicit mechanisms for proposing ideas, influencing roadmap, and entering decision discussions. | 0–4 |
-| **A4. Decision-Making Processes** | Clear processes for: technology choices, licensing, responsible AI use, operational rules, funding/resource allocation. Includes escalation and resolution paths. | 0–4 |
+| **A1. Identification of Decision Makers** | Clear role description, names and affiliiations with scope of autorithy (what decisions). | 0–4 |
+| **A2. Documented Roles & Influence Pathways** |All roles defined, criteria for each; transparent, equitable access. | 0–4 |
+| **A3. Influence Without Formal Authority** | Mechanisms exist for proposals & debate beyond gatekeepers. | 0–4 |
+| **A4. Decision Processes** | Technology choices, licensing, AI use, operations, funding approval. Includes escalation paths. | 0–4 |
 
 ---
 
-## B. Community Trust (0–12 points)
-
+## B. Community Legitimacy & Trust (0–12 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
-| **B1. Community Consultation & Input** | Documentation shows collaborative development: RFC participation, community voting, comments resolved. | 0–4 |
-| **B2. Inclusiveness & Accessibility** | Governance ensures representation; accessible formats and inclusive language; accommodations for diverse contributors. | 0–4 |
-| **B3. Trust & Accountability** | Proven adoption; transparency reporting; decisions align with the governance policy in practice. | 0–4 |
+| **B1. Community Input to Governance** | Evidence governance was co-created: RFCs, polls, comment resolution. | 0–4 |
+| **B2. Inclusiveness & Accessibility** | Representation, clear language, accessible formatting. | 0–4 |
+| **B3. Transparency & Accountability** | Governance followed in practice; reporting on decisions exists. | 0–4 |
 
 ---
 
-## C. Sustainability & Adaptiveness (0–8 points)
+## C. Sustainability & Adaptiveness (0–8 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
-| **C1. Renewal & Continuous Improvement** | Scheduled reviews; change logs; mechanisms for revising governance; measurable effectiveness. | 0–4 |
-| **C2. Operational Practicality** | Governance actively used and supported by tooling; integrates into contributor workflows. | 0–4 |
+| **C1. Renewal Mechanisms** | Governance versioning, review cycles, continuous improvement. | 0–4 |
+| **C2. Operational Integration** | Governance used in workflows; templates/tools support decision lifecycle. | 0–4 |
 
 ---
 
-## D. Licensing, AI Use & Ethical Alignment (0–8 points)
+## D. Licensing, Responsible Tech & Ethics (0–8 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
-| **D1. Licensing Strategy** | Clear, compatible licensing; expectations for contributions and third-party code explicitly defined. | 0–4 |
-| **D2. Responsible Technology & AI Policies** | Standards for AI use, safety, attribution, and data rights; aligns with open-source values and transparency. | 0–4 |
+| **D1. Licensing Strategy** | Clear, compatible license; expectations for contributions defined. | 0–4 |
+| **D2. Responsible AI / Ethical Tech Use** | Transparency, attributions, safety, rights protections. | 0–4 |
 
 ---
 
-## E. Funding, Resourcing & Equity (0–8 points)
+## E. Code of Conduct & Safety (0–8 pts)
 
 | Criterion | Indicators of Excellence | Score |
 |---------|--------------------------|------|
-| **E1. Funding Distribution & Decision Criteria** | Clearly defines who may receive funds, eligibility rules, evaluation criteria, who approves allocations, and conflict-of-interest protections. | 0–4 |
-| **E2. Contributor Support & Equity** | Resource pathways support project continuity and equitable participation (e.g., paid maintenance, mentorship). | 0–4 |
+| **E1. Code of Conduct** | Behavioral expectations and unacceptable conduct clearly guided as by ecosystem standard like Contributor Covenant. | 0–4 |
+| **E2. Reporting & Enforcement** | Multiple safe reporting channels; consistent, documented enforcement; anti-retaliation protections. | 0–4 |
 
 ---
 
-## F. Code of Conduct & Safety Processes (0–8 points)
-
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **F1. Code of Conduct Availability & Clarity** | Behavior expectations and prohibited conduct explicit and affirming; aligned with community values and global accessibility. | 0–4 |
-| **F2. Reporting & Enforcement Processes** | Multiple confidential reporting channels; documented enforcement actions; protection against retaliation; trusted response team with clear accountability. | 0–4 |
-
----
-
-## ✅ Total Score: **/ 60 points**
+## ✅ Total Score: **/ 52 pts**
 
 | Rating | Descriptor |
-|--------|------------|
-| 55–60 | Excellent – Governance in open source |
-| 46–54 | Strong – Solid foundation with minor gaps |
-| 34–45 | Adequate – Useful but needs revisions or legitimacy proof |
-| 20–33 | Weak – Missing essential governance or safety systems |
-| 0–19 | Not Viable – Governance insufficient or not implementable |
+|-------|------------|
+| 48–52 | Excellent — Model for open governance |
+| 40–47 | Strong — Minor improvements needed |
+| 30–39 | Adequate — Needs refinement & validation |
+| 20–29 | Weak — Missing key elements |
+| 0–19 | Not Viable — Governance not implementable |
+
+**Reviewer Notes:**  
+- Evidence of community input:  
+- Risks or gaps identified:  
+- Recommended changes:  
