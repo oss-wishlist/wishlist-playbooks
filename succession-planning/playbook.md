@@ -1,4 +1,5 @@
 # Succession Planning 
+This playbook is intended as a guide for pracitioners, with their own resources to reach goals of enduring, trusted leaderhip.
 
 ## Resources
 
