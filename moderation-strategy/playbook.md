@@ -9,6 +9,7 @@ Modreation tends to be an afterthought, and often becomes urgent as the lack of 
 ## Resources
 
 - [Moderation Pocket Book](https://github.com/microsoft/OSPO/blob/main/learning_resources/moderating-oss/moderating-oss-repos.md)
+- [Psychological Safety](CHAOSS)(https://chaoss.community/kb/metric-psychological-safety/)
 
 ## Moderation Strategy – Peer Review Rubric
 
