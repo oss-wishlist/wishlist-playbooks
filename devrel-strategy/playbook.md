@@ -1,8 +1,12 @@
 # Developer Relations Strategy
 
+Playbook for pracitioners and maintainers to work together on a strategy to grow developer adoption and/or contribution.
+
 ## Resources
 
-TBD
+* [DevRel Metrics](https://podcast.chaoss.community/18) (CHAOSS Podcast)
+* [KPI and Metrics for DevRel Programs](https://bitergia.com/blog/kpis-and-metrics-for-devrel-programs/)
+* [Open Collaboration Strategy](https://github.com/microsoft/OSPO/blob/main/learning_resources/releasing-oss/releasing-oss-strategy.md)
 
 # Developer Relations (DevRel) – Peer Review Rubric
 
