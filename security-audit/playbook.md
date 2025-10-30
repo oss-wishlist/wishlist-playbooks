@@ -1,11 +1,17 @@
 # Security Audit and Update
 
 A playbook for maintainers and pracitioners, in addition to their own resources.
-**Note**: this is an intial draft. Please contribute improvements, or reach out directly.  
+
+**Important Note**: due to the obvious risk associated with this topic, at this moment we are looking to engage security foundations around this type of service.  We haven't had time for this, but appreciate outreach from those involved in this space to propose a path forward to help maintainers in a way that ensures the security of the fullfillment.
+
+
+## Process Milestones
+
 
 ## Resources
 
-## Security Audit Peer Review 
+* OpenSSF Scorcard
+* Criticality Score
 
 ## Open Source Security – Peer Review Rubric  
 (Aligned with OpenSSF Scorecard + Repository Security Best Practices)
