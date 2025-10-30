@@ -2,80 +2,104 @@
 
 Playbook for pracitioners and maintainers to work together on a strategy to grow developer adoption and/or contribution.
 
+## Process Milestones
+
+Note: that some milestones may not currently apply to a project (for example, there are no existing contributors to sponsor), but documentation for future consideration is encouraged.
+
+1. Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+2. Audience Definition & Alignment
+3. Communication & Outreach Strategy
+4. Developer Experience & Pathways
+5. Advocacy, Relationships & Ecosystem Growth
+6. Feedback, Measurement & Renewal 
+7. Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+8. Survey (maintainer and pracitioner)
+
 ## Resources
 
 * [DevRel Metrics](https://podcast.chaoss.community/18) (CHAOSS Podcast)
+* [Open Collaboration Strategy](https://github.com/emmairwin/OSPO/blob/main/learning_resources/releasing-oss/releasing-oss-strategy.md?ref=sunnydeveloper.com)
 * [KPI and Metrics for DevRel Programs](https://bitergia.com/blog/kpis-and-metrics-for-devrel-programs/)
-* [Open Collaboration Strategy](https://github.com/microsoft/OSPO/blob/main/learning_resources/releasing-oss/releasing-oss-strategy.md)
 
-# Developer Relations (DevRel) – Peer Review Rubric
+## Open Source Developer Relations (DevRel) – Peer Review Rubric
 
-**Purpose:** Evaluate how well the project enables, supports, and retains contributors — through communication, documentation, community experience, and ecosystem engagement.
+**Purpose:** Evaluate how well a project understands, reaches, and sustains the developer and collaborator audiences it depends on — including contributors, users, testers, advocates, and partners.  
+This rubric measures strategic clarity, outreach readiness, trust, and feedback cycles.
 
-**Scoring Scale per Criterion:**  
-0 = Absent  
-1 = Minimal / unclear / inconsistent  
-2 = Basic presence but underdeveloped  
-3 = Strong, impactful programs with minor gaps  
-4 = Best-in-class, repeatable, and continuously improving
+**Scoring (per criterion):**  
+0 = Absent | 1 = Minimal/ad-hoc | 2 = Partial or inconsistent | 3 = Strong, coordinated | 4 = Mature, data-informed, and self-sustaining
 
 ---
 
-
-## A. Contributor Experience & Onboarding (0–12 pts)
+### A. Audience Definition & Alignment (0–16 pts)
 
 | Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **A1. Contributor Pathways** | Clear guides for first-time contributions, labels like "good first issue", expected workflows. | 0–4 |
-| **A2. Documentation Quality & Discoverability** | Up-to-date docs, API references, architecture diagrams, self-service troubleshooting. | 0–4 |
-| **A3. Reduction of Maintainer Hand-holding** | Contributor tutorials, examples, FAQs reduce friction and repetitive questions. | 0–4 |
+|-----------|--------------------------|-------|
+| **A1. Audience Segmentation** | Clear understanding of key audiences (contributors, adopters, testers, educators, startups, etc.) and what each values. | 0–4 |
+| **A2. Needs and Motivations** | Specific articulation of what each audience seeks — learning, visibility, stability, collaboration — and how the project meets that need. | 0–4 |
+| **A3. Audience–Project Fit** | Explicit connection between project goals and what the audience gains (mutual benefit). | 0–4 |
+| **A4. Prioritization and Focus** | Focused on the most critical audiences; outreach plans scaled to available capacity. | 0–4 |
 
 ---
 
-## B. Community Communication & Transparency (0–12 pts)
+### B. Communication & Outreach Strategy (0–16 pts)
 
 | Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **B1. Roadmap Visibility** | Public roadmap or milestones; signals where community help is needed. | 0–4 |
-| **B2. Regular Communication Channels** | Project updates, release notes, community calls; global inclusion considered. | 0–4 |
-| **B3. Responsiveness & Tone** | Contributors feel welcomed, respected, and informed — even when declined. | 0–4 |
+|-----------|--------------------------|-------|
+| **B1. Outreach Channels** | Chosen channels align with audiences (conferences, universities, online communities, newsletters, blogs, social, partner networks). | 0–4 |
+| **B2. Programmatic Engagement** | Repeatable programs such as community calls, workshops, mentorships, or “getting started” events. | 0–4 |
+| **B3. Content & Storytelling** | Authentic storytelling: tutorials, demos, blogs, and updates that communicate value and invite participation. | 0–4 |
+| **B4. Visibility & Consistency** | Communication cadence is regular and predictable; roles and responsibilities are clear. | 0–4 |
 
 ---
 
-## C. Recognition, Trust, & Pathways to Influence (0–12 pts)
+### C. Developer Experience & Pathways (0–16 pts)
 
 | Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **C1. Recognition of Contributions** | Badges, release credits, shout-outs; non-code contributions valued. | 0–4 |
-| **C2. Invitation to Leadership Growth** | Mentorship programs, permissions expansion, working groups, maintainership candidates. | 0–4 |
-| **C3. Community Trust Signals** | Open governance visible; stats, participation, and approvals transparent. | 0–4 |
+|-----------|--------------------------|-------|
+| **C1. First-Mile Experience** | Quickstart works; contributors or users can experience value within minutes. | 0–4 |
+| **C2. Contribution Pathways** | Clear contribution routes: issue labeling, onboarding docs, mentorship, automation for repetitive steps. | 0–4 |
+| **C3. Support and Responsiveness** | Timely triage of PRs/issues; questions acknowledged; backlog managed intentionally. | 0–4 |
+| **C4. Trust & Psychological Safety** | Tone of communication is inclusive, respectful, and consistent with project values. | 0–4 |
 
 ---
 
-## D. Developer Ecosystem Integration (0–12 pts)
+### D. Advocacy, Relationships & Ecosystem Growth (0–16 pts)
 
 | Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **D1. Tooling & DX Excellence** | CI feedback is fast and actionable; CLI helpers; dev containers; pre-commit hooks. | 0–4 |
-| **D2. Compatibility & Adoption Support** | Tutorials for downstream users, APIs stable; integration guidance for ecosystem partners. | 0–4 |
-| **D3. Event, Content & Advocacy Strategy** | Demos, blog posts, samples; clear value exchange for contributors and adopters. | 0–4 |
+|-----------|--------------------------|-------|
+| **D1. External Advocacy & Ambassadors** | Maintainers or community members speak at events, write posts, or otherwise represent the project publicly. | 0–4 |
+| **D2. Partnerships & Collaborations** | Relationships with universities, startups, or foundations to expand audience reach and shared learning. | 0–4 |
+| **D3. Recognition & Reward Systems** | Structured recognition: contributor spotlights, digital badges, event speaking invites. | 0–4 |
+| **D4. Ecosystem Awareness** | Awareness of related projects and interoperability narratives — showing how the project fits in a broader ecosystem. | 0–4 |
 
 ---
 
-## ✅ Total Score: **/ 48 pts**
+### E. Feedback, Measurement & Renewal (0–12 pts)
+
+| Criterion | Indicators of Excellence | Score |
+|-----------|--------------------------|-------|
+| **E1. Feedback Channels** | Discussion boards, surveys, events, or analytics used to gather developer sentiment and learning needs. | 0–4 |
+| **E2. Metrics & Signals** | Measures engagement (e.g., contributors onboarded, time-to-first-success, event reach, returning participants). | 0–4 |
+| **E3. Renewal & Adaptation** | Reviews outreach effectiveness quarterly; evolves messaging, audiences, or programs accordingly. | 0–4 |
+
+---
+
+### ✅ Total Score: **/ 76 pts**
 
 | Rating | Descriptor |
-|-------:|------------|
-| 44–48 | Excellent — Strong DevRel culture, scalable contributor pipeline |
-| 36–43 | Strong — High engagement but room for polish |
-| 24–35 | Adequate — Contributors can struggle to participate fully |
-| 12–23 | Weak — Project dependent on insiders; poor community growth |
-| 0–11 | Not Viable — Closed culture; limited sustainability prospects |
+|--------|-------------|
+| 70–76 | Excellent — Clear audience strategy, repeatable engagement, measurable outcomes |
+| 60–69 | Strong — Targeted, credible DevRel with room for refinement |
+| 45–59 | Adequate — Basic audience understanding; inconsistent engagement |
+| 25–44 | Weak — Scattered outreach, unclear audiences |
+| 0–24 | Not Viable — No coherent developer-relations strategy |
 
 ---
 
 ## Reviewer Notes
 
-- Top friction points for contributors:  
-- High-impact opportunities for DevRel improvement:  
-- Are new contributors becoming long-term participants? (Yes / No)  
+- Primary target audiences identified:  
+- Most effective outreach programs today:  
+- Major gaps or missed audiences:  
+- Recommended next 90-day actions:  
