@@ -1,8 +1,24 @@
 # Funding Strategy Playbook
 
-Playbook for maintainers and pracitioners to collaborate on the best outcomes based on project goals, geographic location and need.
+Playbook for maintainers and pracitioners to collaborate on the best outcomes based on project goals, geographic location and need. 
 
+## Process Milestones
+
+Note: that some milestones may not currently apply to a project (for example, there are no existing contributors to sponsor), but documentation for future consideration is encouraged.
+
+1. Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+2. Funding Readiness & Accessibility
+3. Funding Diversification & Strategic Planning
+4. Financial Governance & Accountability
+5. Contributor & Maintainer Sustainability Support
+6. Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+7. Survey (maintainer and pracitioner)
+   
 ## Resources
+
+* [Open Funding](https://github.com/ralphtheninja/open-funding) (@ralphtheninja)
+* [2024 Funding in Open Source Report](https://opensourcefundingsurvey2024.com/)
+* Contribute your resource
 
 ### Funding Strategy – Peer Review Rubric
 
