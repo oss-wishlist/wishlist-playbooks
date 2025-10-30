@@ -7,11 +7,19 @@ A playbook for maintainers and pracitioners, in addition to their own resources.
 
 ## Process Milestones
 
+* Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+*  ...TBD, pending discusssion with security experts
+* Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+* Survey (maintainer and pracitioner)
+
 
 ## Resources
 
-* OpenSSF Scorcard
-* Criticality Score
+* [OpenSSF Scorcard](https://openssf.org/projects/scorecard/)
+* [Criticality Score](https://github.com/ossf/criticality_score/blob/main/Quantifying_criticality_algorithm.pdf)
+* [Dependabot](https://github.com/dependabot)
+* [GitHub Security and Code Quality](https://docs.github.com/en/code-security)
+* [Secure GitLab](https://docs.gitlab.com/security/)
 
 ## Open Source Security – Peer Review Rubric  
 (Aligned with OpenSSF Scorecard + Repository Security Best Practices)
