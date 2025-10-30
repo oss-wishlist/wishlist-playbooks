@@ -20,7 +20,7 @@ Note: that some milestones may not currently apply to a project (for example, th
 * [2024 Funding in Open Source Report](https://opensourcefundingsurvey2024.com/)
 * Contribute your resource
 
-### Funding Strategy – Peer Review Rubric
+## Funding Strategy – Peer Review Rubric
 
 **Purpose:** Evaluate how well the project is positioned to attract, manage, and sustain funding to support long-term maintenance and community impact.
 
