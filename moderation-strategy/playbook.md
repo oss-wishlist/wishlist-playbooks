@@ -11,6 +11,18 @@ Modreation tends to be an afterthought, and often becomes urgent as the lack of 
 - [Moderation Pocket Book](https://github.com/microsoft/OSPO/blob/main/learning_resources/moderating-oss/moderating-oss-repos.md)
 - [Psychological Safety](CHAOSS)(https://chaoss.community/kb/metric-psychological-safety/)
 
+## Process Milestones
+
+Note: that some milestones may not currently apply to a project and will be refined as part of the initial 
+
+1. Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+2.  Noise & Spam Control Readiness
+3.  Team Alignment on Moderation Practices
+4.  Escalation & Maintainer Protection
+5.  Continuous Process Improvement
+7. Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+8. Survey (maintainer and pracitioner)
+
 ## Moderation Strategy – Peer Review Rubric
 
 **Scoring Scale per Criterion:**  
