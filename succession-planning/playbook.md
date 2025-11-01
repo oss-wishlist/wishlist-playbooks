@@ -7,8 +7,18 @@ This playbook is intended as a guide for pracitioners, with their own resources 
 - [Contributor Absence Factor (CHAOSS)](https://chaoss.community/kb/metric-contributor-absence-factor/)
 - [Contribution ladder]()
 
-## Maintainer Relief – Peer Review Rubric
+# Process Milestones
 
+Note: that some milestones may not currently apply to a project and will be refined as part of the initial 
+
+1. Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+2. Leadership Structure & Distribution
+3. Pathways to Trusted Leadership
+4. Continuity During Change
+5. Maintainer Sustainability Support
+7. Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+8. Survey (maintainer and pracitioner)
+   
 ## Leadership Continuity & Succession Planning – Peer Review Rubric
 
 **Purpose:** Evaluate how well the project reduces leadership concentration risk, supports healthy turnover, and maintains trusted stewardship over time.
