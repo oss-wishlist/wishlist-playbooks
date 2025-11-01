@@ -5,7 +5,7 @@ This playbook is intended as a guide for pracitioners, with their own resources 
 
 - [Inclusive Leadership (CHAOSS)](https://chaoss.community/kb/metric-inclusive-leadership/)
 - [Contributor Absence Factor (CHAOSS)](https://chaoss.community/kb/metric-contributor-absence-factor/)
-- [Contribution ladder]()
+- [Contribution ladder](https://glossary.cncf.io/contributor-ladder/)
 
 # Process Milestones
 
