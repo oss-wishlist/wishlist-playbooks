@@ -3,6 +3,22 @@ A playbook to be used, with other resources and feedback from maintainers on wha
 
 ## Resources
 
+* [Pracitioner Guide - Responsiveness](https://chaoss.community/practitioner-guide-responsiveness/) (CHAOSS)
+  
+
+## Process Milestones
+
+Note: that some milestones may not currently apply to a project (for example, there are no existing contributors to sponsor), but documentation for future consideration is encouraged.
+
+1. Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+2. Responsiveness & Workload Help
+3. Community Interface & Channel Management
+4. Resource Augmentation & Delegation 
+5. Operational Quality Hygiene
+6. Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+7. Survey (maintainer and pracitioner)
+   
+
 ## Maintainer Relief – Peer Review Rubric
 
 **Purpose:** Evaluate how effectively a project reduces unnecessary maintainer labor, prevents burnout, and maintains healthy contributor pathways.
