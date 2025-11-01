@@ -4,6 +4,7 @@ A playbook to be used, with other resources and feedback from maintainers on wha
 ## Resources
 
 * [Pracitioner Guide - Responsiveness](https://chaoss.community/practitioner-guide-responsiveness/) (CHAOSS)
+* [Time to close](https://chaoss.community/kb/metric-time-to-close/)
   
 
 ## Process Milestones
