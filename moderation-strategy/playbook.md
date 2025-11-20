@@ -6,10 +6,14 @@ Modreation tends to be an afterthought, and often becomes urgent as the lack of 
 **NOTE**: moderation strategy can include code of conduct response, but the details of creating that document, and response times is a governance task.
 
 
-## Resources
+## General Resources
 
 - [Moderation Pocket Book](https://github.com/microsoft/OSPO/blob/main/learning_resources/moderating-oss/moderating-oss-repos.md)
 - [Psychological Safety](CHAOSS)(https://chaoss.community/kb/metric-psychological-safety/)
+
+## AI Alignment Resources
+
+- [LLM Moderation Policies](https://github.com/chaoss/wg-ai-alignment/tree/main/moderation])
 
 ## Process Milestones
 
