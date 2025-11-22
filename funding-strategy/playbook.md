@@ -18,6 +18,7 @@ Note: that some milestones may not currently apply to a project (for example, th
 
 * [Open Funding](https://github.com/ralphtheninja/open-funding) (@ralphtheninja)
 * [2024 Funding in Open Source Report](https://opensourcefundingsurvey2024.com/)
+* [Maintainance Fee](https://robmensching.com/blog/posts/2025/05/12/open-source-maintenance-fee-two-months-in/)
 * Contribute your resource
 
 ## Funding Strategy – Peer Review Rubric
