@@ -21,6 +21,10 @@ Note: that some milestones may not currently apply to a project (for example, th
 * [Maintainance Fee](https://robmensching.com/blog/posts/2025/05/12/open-source-maintenance-fee-two-months-in/)
 * Contribute your resource
 
+## Potential sources
+
+* [https://floss.fund](https://floss.fund/faq/)
+
 ## Funding Strategy – Peer Review Rubric
 
 **Purpose:** Evaluate how well the project is positioned to attract, manage, and sustain funding to support long-term maintenance and community impact.
