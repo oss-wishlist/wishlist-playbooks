@@ -1,106 +1,151 @@
-# Security Audit and Update
+# Cyber Resilience Act (CRA) Pracitioner Playbook
 
 A playbook for maintainers and pracitioners, in addition to their own resources.
 
-**Important Note**: due to the obvious risk associated with this topic, at this moment we are looking to engage security foundations around this type of service.  We haven't had time for this, but appreciate outreach from those involved in this space to propose a path forward to help maintainers in a way that ensures the security of the fullfillment.
+**Important Note**: due to the obvious risk associated with this topic, the pracitioner delivering this service would be required to be validated by a CRA authorithy, or related foundation.
 
 
 ## Process Milestones
 
 * Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
-*  ...TBD, pending discusssion with security experts
+* Milestones finalized
+* Milestone completed
 * Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
+* Attestation of compliance (TBD method)
 * Survey (maintainer and pracitioner)
 
+##  Resources 
 
-## Resources
+### EU Cyber Resilience Act (CRA)
+- [EU Cyber Resilience Act – Official European Commission Page](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
+- [Cyber Resilience Act – Legislative Text (EUR-Lex)](https://eur-lex.europa.eu/)
+- [CRA FAQs – European Commission](https://digital-strategy.ec.europa.eu/en/faqs/cyber-resilience-act)
 
-* [OpenSSF Scorcard](https://openssf.org/projects/scorecard/)
-* [Criticality Score](https://github.com/ossf/criticality_score/blob/main/Quantifying_criticality_algorithm.pdf)
-* [Dependabot](https://github.com/dependabot)
-* [GitHub Security and Code Quality](https://docs.github.com/en/code-security)
-* [Secure GitLab](https://docs.gitlab.com/security/)
+### OpenSSF – Security Best Practices & Tooling
+- [OpenSSF Best Practices Badge Program](https://bestpractices.coreinfrastructure.org/)
+- [OpenSSF Scorecard](https://github.com/ossf/scorecard)
+- [OpenSSF Secure Software Development Fundamentals](https://openssf.org/training/secure-software-development-fundamentals/)
+- [OpenSSF SLSA Framework](https://slsa.dev/)
 
-## Open Source Security – Peer Review Rubric  
-(Aligned with OpenSSF Scorecard + Repository Security Best Practices)
+### Vulnerability Disclosure & Handling
+- [GitHub – About SECURITY.md](https://docs.github.com/en/code-security/getting-started/adding-a-security-policy-to-your-repository)
+- [OpenSSF Guide: Vulnerability Disclosure](https://openssf.org/docs/best-practices/vulnerability-disclosure/)
+- [CVE Program](https://www.cve.org/)
 
-**Purpose:** Evaluate the security posture and resilience of an open source project’s repository, workflows, dependencies, and contributor access.
+### Supply Chain Transparency
+- [SPDX – Software Bill of Materials (SBOM)](https://spdx.dev/)
+- [CycloneDX SBOM Specification](https://cyclonedx.org/)
+- [SLSA Provenance Overview](https://slsa.dev/spec/v1.0/provenance)
 
-**Scoring Scale per Criterion:**  
-0 = Missing / No evidence  
-1 = Weak / Ad-hoc  
-2 = Adequate but partial coverage  
-3 = Strong security posture, minor gaps  
-4 = Excellent, proactive, and automated controls
+### Repository Security Hygiene
+- [GitHub – Securing Your Repository](https://docs.github.com/en/code-security/getting-started/securing-your-repository)
+- [GitHub – Dependency Review & Dependabot](https://docs.github.com/en/code-security/supply-chain-security)
+- [GitHub – Enforcing Two-Factor Authentication](https://docs.github.com/en/organizations/keeping-your-organization-secure/enforcing-two-factor-authentication-for-your-organization)
 
----
+### CRA Context for Open Source
+- [Linux Foundation Europe – CRA & Open Source Briefings](https://www.linuxfoundation.org/resources)
+- [OpenSSF Policy & Regulatory Engagement](https://openssf.org/about/policy/)
 
-## A. Access & Identity Security (0–12 pts)
 
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **A1. Maintainer Account Security** | All organization/repo owners enforce 2FA; periodic access reviews. | 0–4 |
-| **A2. Least-Privilege Roles** | Maintainer/admin roles minimized; automation uses granular tokens. | 0–4 |
-| **A3. Protected Branches & Review Rules** | Required code reviews, status checks, signing/verification enforced. | 0–4 |
+## EU Cyber Resilience Act (CRA) – Open Source Readiness Rubric
 
----
+**Purpose:**  
+Assess whether an open source project has reached a security and documentation state that enables downstream compliance with the EU Cyber Resilience Act (CRA).
 
-## B. Dependency & Supply-Chain Protection (0–16 pts)
+**Important framing:**  
+This rubric evaluates *enablement*, not legal responsibility.  
+Passing this rubric supports downstream manufacturers’ CRA obligations.
 
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **B1. Automated Dependency Scanning** | Dependabot or equivalent; alerts triaged promptly. | 0–4 |
-| **B2. Vulnerability Remediation** | Clear SLA for fixing security CVEs; tracked in issue/PR workflow. | 0–4 |
-| **B3. Trusted Sources & Pinning** | Version pinning, checksum verification, no unexpected external pulls. | 0–4 |
-| **B4. Integrity & Signing** | Use of Sigstore/GPG for releases and/or provenance artifacts (SLSA). | 0–4 |
+**Audience:** Peer reviewers
 
----
+**Scoring Model:**  
+Each criterion is scored independently.  
+Overall result is determined by the **lowest scoring critical criterion**.
 
-## C. Code Quality & Security Testing (0–12 pts)
-
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **C1. Static/Dynamic Analysis** | Code scanning (CodeQL etc.) enabled and findings resolved. | 0–4 |
-| **C2. CI Build Isolation & Hardening** | Builds run in protected environments; secrets masked and minimal. | 0–4 |
-| **C3. Test Coverage for Critical Components** | Automated tests include security-relevant logic; coverage monitored. | 0–4 |
-
----
-
-## D. Secure Practices for Contributors (0–12 pts)
-
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **D1. Security Policy (SECURITY.md)** | Clear disclosure process; expected mitigations; protected contacts. | 0–4 |
-| **D2. Issue Reporting & Triage Workflow** | Responsible disclosure honored; security issues tagged and tracked. | 0–4 |
-| **D3. Contributor Safety in CI/CD** | No secret leakage; PR security validation before merge. | 0–4 |
+- 0 = Not present
+- 1 = Present but insufficient
+- 2 = Present and sufficient (meets CRA enablement needs)
 
 ---
 
-## E. Risk Management & Governance Integration (0–8 pts)
+## A. Vulnerability Disclosure & Response
 
-| Criterion | Indicators of Excellence | Score |
-|---------|--------------------------|------|
-| **E1. Third-Party Access Risk** | Token rotation; dependency audits; trusted artifact registries. | 0–4 |
-| **E2. Operational Security Maturity** | Adoption of frameworks: OpenSSF Scorecard, SLSA, OSSF Best Practices. | 0–4 |
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **A1. Public Disclosure Process** | No disclosure guidance | Informal or unclear | Clear, documented process (e.g. SECURITY.md) | 0–2 |
+| **A2. Private Reporting Channel** | No private channel | Exists but unreliable | Clear, monitored reporting path | 0–2 |
+| **A3. Vulnerability Handling Practice** | No evidence of handling | Inconsistent response | Demonstrated acknowledgement and remediation | 0–2 |
 
 ---
 
-## ✅ Total Score: **/ 60 pts**
+## B. Maintainer Access & Identity Security
 
-| Rating | Descriptor |
-|-------:|------------|
-| 55–60 | Excellent – Secure automation and continuous security investment |
-| 46–54 | Strong – Minor improvements needed |
-| 34–45 | Adequate – Some material risks remain |
-| 20–33 | Weak – Significant gaps in repository security |
-| 0–19 | Not Viable – High security risk exposure |
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **B1. Maintainer Account Protection** | No 2FA enforcement | Partial or voluntary | 2FA enforced for maintainers | 0–2 |
+| **B2. Administrative Access Control** | Unrestricted admin access | Excessive admins | Limited, documented admin access | 0–2 |
+| **B3. Access Revocation Capability** | No clear process | Informal/manual | Clear ability to revoke access promptly | 0–2 |
+
+---
+
+## C. Dependency & Build Transparency
+
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **C1. Dependency Declaration** | Dependencies unclear | Partial listing | Dependencies declared and discoverable | 0–2 |
+| **C2. Build Input Visibility** | Build opaque | Partially documented | Build inputs documented at high level | 0–2 |
+| **C3. Artifact Integrity** | Undocumented binaries | Mixed practices | No undocumented binaries in releases | 0–2 |
+
+---
+
+## D. Release Traceability
+
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **D1. Versioning / Tagging** | No versioning | Inconsistent tagging | Releases are versioned or tagged | 0–2 |
+| **D2. Change Traceability** | No traceability | Partial traceability | Commits traceable to releases | 0–2 |
+| **D3. Security Fix Identification** | Fixes indistinguishable | Inconsistent signaling | Security-relevant fixes identifiable | 0–2 |
+
+---
+
+## E. Secure Development Practices
+
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **E1. Branch Protections** | None | Partial | Reviews/checks enforced | 0–2 |
+| **E2. Automated Security Signals** | None | Inconsistent | Dependency or vuln scanning enabled | 0–2 |
+| **E3. Secret Management** | Secrets in repo | Risky practices | Secrets protected and managed | 0–2 |
+
+---
+
+## F. Downstream CRA Enablement
+
+| Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
+|---------|----------------|------------------|----------------|------|
+| **F1. Security Context Documentation** | No guidance | Minimal notes | Clear security assumptions & limits | 0–2 |
+| **F2. Regulatory Awareness Statement** | None | Vague mention | Explicit support for downstream CRA compliance (no liability claim) | 0–2 |
+
+---
+
+##  Overall CRA Readiness Result
+
+**Passing Condition:**
+- All criteria score **2**, **or**
+- At most **two** criteria score **1**, with **no 0s**
+
+**Results:**
+- **Pass** – Project enables downstream CRA compliance
+- **Conditional** – Gaps require remediation before regulated use
+- **Fail** – Project state blocks CRA-regulated adoption
 
 ---
 
 ## Reviewer Notes
 
-- Security weaknesses found:  
-- High-risk dependencies:  
-- Secrets exposure history:  
-- Recommended improvements:  
+- Blocking gaps:
+- Sponsor-investable remediation areas:
+- Recommended priority actions:
+
+
+:  
 
