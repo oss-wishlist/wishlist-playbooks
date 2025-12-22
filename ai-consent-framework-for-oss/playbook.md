@@ -9,7 +9,7 @@ Evaluate the creation and implementation of an AI Consent Framework developed co
 * [Dynamic Consent (model from biomedical data governance)](https://en.wikipedia.org/wiki/Dynamic_consent)
  (ongoing interaction for consent) 
 
-Process Milestones
+# Process Milestones
 
 Note: that some milestones may not currently apply to a project (for example, there are no existing contributors to sponsor), but documentation for future consideration is encouraged.
 
@@ -98,7 +98,7 @@ This rubric evaluates **process, alignment, and implementation** — not legal c
 
 ---
 
-## ✅ Total Score: **/ 68 pts**
+## Total Score: **/ 68 pts**
 
 | Rating | Descriptor |
 |--------|------------|
