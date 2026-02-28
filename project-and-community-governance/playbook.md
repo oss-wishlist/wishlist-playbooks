@@ -17,7 +17,7 @@ Ultimately, the goal of this playbook is to ensure that governance is public, an
 In addition to their own, we recommen recommend pracitioners consult and leverage these resourecs on governance topics:
 
 - [Minimal Viable Governance](https://github.com/github/MVG) : Minimum Viable Governance allows you to start an (project/GitHub) organization and sub-projects with simple governance in place at the outset - including legal terms, licensing and trademark issues, and due process. Having this governance in place early helps avoid disputes among participants down the road.
-- [Contribution Leadder (CNCF example)](https://glossary.cncf.io/contributor-ladder/): Contribution ladders are transparent ways in which a project can document pathways for contribution, which may or may not progress towards greater responsiblity.
+- [Contribution Ladder (CNCF example)](https://glossary.cncf.io/contributor-ladder/): Contribution ladders are transparent ways in which a project can document pathways for contribution, which may or may not progress towards greater responsiblity.
 - [Inclusive Leadership (CHAOSS metric)](https://chaoss.community/kb/metric-inclusive-leadership/): Outlines the way in which a project can invite diverse participation, with examples and templates.
 - [Project Code of Conduct (CHAOSS)](https://chaoss.community/kb/metric-code-of-conduct-for-a-project/): Ensure that processes for reporting behaviors is clear, created with community input and trusted. 
 - [Psychological Safety](https://chaoss.community/kb/metric-psychological-safety/): A focus on trust in all the above.
