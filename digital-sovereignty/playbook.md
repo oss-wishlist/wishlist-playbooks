@@ -1,4 +1,4 @@
-# Digital Sovereignty & Technology Dependency Sustainability Playbook (Canada — Education)
+# Digital Sovereignty Playbook (Canada — Education)
 
 Playbook for educational institutions and practitioners to evaluate technology services, reduce dependency risk, and improve digital sovereignty through sustainable open source and vendor-neutral infrastructure, with consideration for Canadian education procurement, privacy, and data residency requirements.
 
