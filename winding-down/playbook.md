@@ -29,10 +29,7 @@ Note: Not all projects will follow a linear path — some may transfer ownership
 
 ## Resources
 
-- :contentReference[oaicite:1]{index=1}  
-- OpenSSF Best Practices (for dependency signaling)  
-- CHAOSS metrics (for project health context)  
-- Contribute your resource  
+- [Closing Time  - a one day workshop](https://gvwilson.github.io/closure/)
 
 ---
 
