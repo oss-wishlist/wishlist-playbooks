@@ -16,6 +16,10 @@ A playbook for maintainers and pracitioners, in addition to their own resources.
 
 ##  Resources 
 
+### CRA Self-Assessment and Checklists
+- [OpenChain CRA Compliance Requirements & Checklist v1.0](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CRA_Checklist_Requirement_v1.0.md) (CC-BY-4.0) - community-maintained readiness checklist mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230 and BSI TR-03183. Section 5 covers OSS stewardship and the steward/manufacturer boundary; Section 4.4 covers the Article 14 reporting cascade. Completing it is a readiness and evidence exercise, not a conformity assessment.
+- [OpenChain CRA Compliance project page](https://cra-compliance.openchainproject.org)
+
 ### EU Cyber Resilience Act (CRA)
 - [EU Cyber Resilience Act – Official European Commission Page](https://digital-strategy.ec.europa.eu/en/policies/cyber-resilience-act)
 - [Cyber Resilience Act – Legislative Text (EUR-Lex)](https://eur-lex.europa.eu/)
