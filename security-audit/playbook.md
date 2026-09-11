@@ -1,18 +1,57 @@
-# Cyber Resilience Act (CRA) Pracitioner Playbook
+# Cyber Resilience Act (CRA) Practitioner Playbook
 
-A playbook for maintainers and pracitioners, in addition to their own resources.
+A playbook for maintainers and practitioners, in addition to their own resources.
 
-**Important Note**: due to the obvious risk associated with this topic, the pracitioner delivering this service would be required to be validated by a CRA authorithy, or related foundation.
+**Important note on scope**
+
+This service produces a readiness assessment and an evidence record. It is not a
+conformity assessment, an EU Declaration of Conformity, or a basis for CE
+marking. Those follow the routes set out in the Regulation and, where required,
+involve a notified body. No practitioner and no rubric can substitute for them.
+
+There is no accreditation scheme for CRA consultants, so "validated by a CRA
+authority" is not something a practitioner can hold. What a maintainer should
+look for instead is demonstrable experience with vulnerability handling, SBOM
+tooling and coordinated disclosure, and a practitioner who is explicit about
+where their work stops and legal advice begins.
 
 
 ## Process Milestones
 
-* Kick off meeting: Maintainer meets with OSS Wishlist admin and pracitioner (whether sponsor employee or verified pracitioner) to align on goals and timeline.
+* Kick off meeting: Maintainer meets with OSS Wishlist admin and practitioner (whether sponsor employee or verified practitioner) to align on goals and timeline.
 * Milestones finalized
 * Milestone completed
-* Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and pracitioner
-* Attestation of compliance (TBD method)
-* Survey (maintainer and pracitioner)
+* Wrap up meeting: Maintainer meets with OSS Wishlist maintainer and practitioner
+* Completed rubric and evidence record, handed to the maintainer. This records readiness, not compliance, and makes no conformity claim.
+* Survey (maintainer and practitioner)
+
+## Does the CRA apply to this project?
+
+Answer this before anything else, because it decides whether the rest is an
+obligation or an exercise. The roles are defined in CRA Art. 3.
+
+- **Manufacturer** (Art. 3(13)) places a product with digital elements on the EU
+  market under its own name or trademark. Most upstream open source projects are
+  not manufacturers.
+- **OSS Steward** (Art. 3(14), Recitals 18-19, Art. 24) provides support on a
+  sustained basis for the development of FOSS and ensures its viability, without
+  being a manufacturer. Foundations and some funded projects land here. Art.
+  24(1) requires a lightweight, documented cybersecurity policy.
+- **Neither.** An unfunded project with no commercial activity is generally out
+  of scope, and may still use this rubric to help the people downstream who are
+  in scope.
+
+Where the classification is not obvious, the OpenChain checklist (5.1.5) sets
+out the commercial-activity test from Commission guidance C(2026) 5252:
+charging for the software; charging for support beyond cost recovery;
+monetising through a platform; collecting personal data beyond security or
+compatibility purposes; **or accepting donations that exceed operational
+costs**. These are indicators, not a verdict, and a borderline case needs legal
+review rather than a rubric.
+
+The last of those matters to anyone reading this playbook because they are
+thinking about funding. A project that starts taking significant sponsorship can
+move across this line, and the answer it gave a year ago may no longer hold.
 
 ##  Resources 
 
@@ -62,13 +101,17 @@ Passing this rubric supports downstream manufacturers’ CRA obligations.
 
 **Audience:** Peer reviewers
 
-**Scoring Model:**  
-Each criterion is scored independently.  
-Overall result is determined by the **lowest scoring critical criterion**.
+**Scoring Model:**
+Each criterion is scored independently.
 
 - 0 = Not present
 - 1 = Present but insufficient
 - 2 = Present and sufficient (meets CRA enablement needs)
+
+Criteria marked **[critical]** gate the result on their own: a 0 on any of them
+is a Fail whatever else scores. They are the ones a downstream manufacturer
+cannot work around, because no amount of effort on their side substitutes for a
+disclosure channel or an identifiable dependency list upstream.
 
 ---
 
@@ -76,8 +119,8 @@ Overall result is determined by the **lowest scoring critical criterion**.
 
 | Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
 |---------|----------------|------------------|----------------|------|
-| **A1. Public Disclosure Process** | No disclosure guidance | Informal or unclear | Clear, documented process (e.g. SECURITY.md) | 0–2 |
-| **A2. Private Reporting Channel** | No private channel | Exists but unreliable | Clear, monitored reporting path | 0–2 |
+| **A1. Public Disclosure Process** *[critical]* | No disclosure guidance | Informal or unclear | Clear, documented process (e.g. SECURITY.md) | 0–2 |
+| **A2. Private Reporting Channel** *[critical]* | No private channel | Exists but unreliable | Clear, monitored reporting path | 0–2 |
 | **A3. Vulnerability Handling Practice** | No evidence of handling | Inconsistent response | Demonstrated acknowledgement and remediation | 0–2 |
 
 ---
@@ -96,9 +139,10 @@ Overall result is determined by the **lowest scoring critical criterion**.
 
 | Criterion | 0 – Not Present | 1 – Insufficient | 2 – Sufficient | Score |
 |---------|----------------|------------------|----------------|------|
-| **C1. Dependency Declaration** | Dependencies unclear | Partial listing | Dependencies declared and discoverable | 0–2 |
+| **C1. Dependency Declaration** *[critical]* | Dependencies unclear | Partial listing | Dependencies declared and discoverable | 0–2 |
 | **C2. Build Input Visibility** | Build opaque | Partially documented | Build inputs documented at high level | 0–2 |
 | **C3. Artifact Integrity** | Undocumented binaries | Mixed practices | No undocumented binaries in releases | 0–2 |
+| **C4. Machine-Readable SBOM** | None published | Generated ad hoc, or not published with releases | SPDX or CycloneDX SBOM published with each release, covering at least top-level dependencies | 0–2 |
 
 ---
 
@@ -128,14 +172,42 @@ Overall result is determined by the **lowest scoring critical criterion**.
 |---------|----------------|------------------|----------------|------|
 | **F1. Security Context Documentation** | No guidance | Minimal notes | Clear security assumptions & limits | 0–2 |
 | **F2. Regulatory Awareness Statement** | None | Vague mention | Explicit support for downstream CRA compliance (no liability claim) | 0–2 |
+| **F3. Support and End-of-Life Signal** | Nothing stated | Informal or inconsistent | Supported versions and end-of-life stated somewhere public | 0–2 |
+| **F4. Machine-Readable Advisories** | Advisories only in prose, or none | Published inconsistently | Advisories machine-readable (GHSA, OSV, CSAF or OpenVEX), so downstream tooling can match them to versions | 0–2 |
 
 ---
+
+## If this project is a steward: Article 14 reporting
+
+Only for projects that concluded they are an OSS Steward or a manufacturer.
+Art. 14 sets a three-stage cascade to the CRA Single Reporting Platform once
+there is an **actively exploited** vulnerability or a severe incident:
+
+| Stage | Clock | Goes to |
+|---|---|---|
+| Early warning | 24 hours from awareness | Coordinating CSIRT and ENISA, via the SRP |
+| Full notification | 72 hours from awareness | SRP, with severity, affected versions, interim mitigations |
+| Final report | 14 days from a fix being available | SRP. Severe incidents: one month from the 72-hour notification |
+
+Three things maintainers get wrong about this:
+
+- It applies to **actively exploited** vulnerabilities and severe incidents, not
+  to every CVE.
+- The SME exemption covers the **fine** for missing the 24-hour window. It does
+  not remove the obligation to report.
+- The clock starts at awareness, so there needs to be a record of when awareness
+  began. Nobody reconstructs that afterwards.
+
+Readiness here is unglamorous and mostly done in advance: a named person and a
+named backup, EU Login access to the SRP, an offline worksheet for when the
+platform is unavailable, and one rehearsal. OpenChain checklist 4.4 and 4.5
+cover this in full.
 
 ##  Overall CRA Readiness Result
 
 **Passing Condition:**
-- All criteria score **2**, **or**
-- At most **two** criteria score **1**, with **no 0s**
+- No **[critical]** criterion scores 0, **and**
+- All criteria score **2**, **or** at most **two** criteria score **1**, with **no 0s**
 
 **Results:**
 - **Pass** – Project enables downstream CRA compliance
@@ -149,7 +221,3 @@ Overall result is determined by the **lowest scoring critical criterion**.
 - Blocking gaps:
 - Sponsor-investable remediation areas:
 - Recommended priority actions:
-
-
-:  
-
