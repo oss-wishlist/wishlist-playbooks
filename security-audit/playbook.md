@@ -2,6 +2,15 @@
 
 A playbook for maintainers and practitioners, in addition to their own resources.
 
+> **This is not legal advice.** Nothing here, including the rubric and any
+> completed assessment, is a legal opinion on whether the Cyber Resilience Act
+> applies to a project or whether it complies. Whether a project is a
+> manufacturer, an open source steward, or out of scope is a legal
+> determination about that project's particular circumstances, and it has real
+> consequences. Consult qualified legal counsel before making any compliance
+> claim or regulatory submission. The same caveat appears in the OpenChain
+> checklist this playbook draws on.
+
 **Important note on scope**
 
 This service produces a readiness assessment and an evidence record. It is not a
