@@ -19,10 +19,10 @@ marking. Those follow the routes set out in the Regulation and, where required,
 involve a notified body. No practitioner and no rubric can substitute for them.
 
 There is no accreditation scheme for CRA consultants, so "validated by a CRA
-authority" is not something a practitioner can hold. What a maintainer should
-look for instead is demonstrable experience with vulnerability handling, SBOM
-tooling and coordinated disclosure, and a practitioner who is explicit about
-where their work stops and legal advice begins.
+authority" describes something no practitioner can hold. Look for demonstrable
+experience with vulnerability handling, SBOM tooling and coordinated
+disclosure, and for a practitioner who is explicit about where their work stops
+and legal advice begins.
 
 
 ## Process Milestones
@@ -55,8 +55,7 @@ out the commercial-activity test from Commission guidance C(2026) 5252:
 charging for the software; charging for support beyond cost recovery;
 monetising through a platform; collecting personal data beyond security or
 compatibility purposes; **or accepting donations that exceed operational
-costs**. These are indicators, not a verdict, and a borderline case needs legal
-review rather than a rubric.
+costs**. Treat these as indicators. A borderline case needs legal review.
 
 The last of those matters to anyone reading this playbook because they are
 thinking about funding. A project that starts taking significant sponsorship can
@@ -65,7 +64,7 @@ move across this line, and the answer it gave a year ago may no longer hold.
 ##  Resources 
 
 ### CRA Self-Assessment and Checklists
-- [OpenChain CRA Compliance Requirements & Checklist v1.0](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CRA_Checklist_Requirement_v1.0.md) (CC-BY-4.0) - community-maintained readiness checklist mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230 and BSI TR-03183. Section 5 covers OSS stewardship and the steward/manufacturer boundary; Section 4.4 covers the Article 14 reporting cascade. Completing it is a readiness and evidence exercise, not a conformity assessment.
+- [OpenChain CRA Compliance Requirements & Checklist v1.0](https://github.com/OpenChain-Project/CRA-Compliance/blob/main/1.0/CRA_Checklist_Requirement_v1.0.md) (CC-BY-4.0) - community-maintained readiness checklist mapped to Regulation (EU) 2024/2847 and aligned with ISO/IEC 18974, ISO/IEC 5230 and BSI TR-03183. Section 5 covers OSS stewardship and the steward/manufacturer boundary; Section 4.4 covers the Article 14 reporting cascade. Completing it is a readiness and evidence exercise.
 - [OpenChain CRA Compliance project page](https://cra-compliance.openchainproject.org)
 
 ### EU Cyber Resilience Act (CRA)
@@ -118,9 +117,9 @@ Each criterion is scored independently.
 - 2 = Present and sufficient (meets CRA enablement needs)
 
 Criteria marked **[critical]** gate the result on their own: a 0 on any of them
-is a Fail whatever else scores. They are the ones a downstream manufacturer
-cannot work around, because no amount of effort on their side substitutes for a
-disclosure channel or an identifiable dependency list upstream.
+is a Fail whatever else scores. A downstream manufacturer depends on these
+directly. A disclosure channel and an identifiable dependency list have to exist
+upstream for their own work to stand on anything.
 
 ---
 
